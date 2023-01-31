@@ -15,7 +15,7 @@ public class Test {
 
         book.setAuthor("ABC");
         //System.out.println(book.getAuthor());
-        book.author("Asdf").title("asd");
+        /*book.author("Asdf").title("asd");
         book.author();
 
         Book.BookBuilder bookBuilder = Book.builder();
@@ -43,7 +43,7 @@ public class Test {
         Book book2 = bookBuilder.quantity(10).build();
         System.out.println(book2);
 
-        System.out.println(book1 == book2);
+        System.out.println(book1 == book2);*/
 
 
     }

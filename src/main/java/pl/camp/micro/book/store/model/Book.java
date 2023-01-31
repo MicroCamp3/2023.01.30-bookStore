@@ -9,7 +9,7 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @Builder
 @ToString
-@Accessors(fluent = true)
+//@Accessors(fluent = true)
 public class Book {
     private int id;
     private String title;
@@ -23,9 +23,5 @@ public class Book {
 
     public void cos() {
 
-    }
-
-    public void setAuthor(String author) {
-        this.author = author + "dsakflhg";
     }
 }

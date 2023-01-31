@@ -1,14 +1,16 @@
-package pl.camp.micro.book.store.database;
+package pl.camp.micro.book.store.database.impl;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+import pl.camp.micro.book.store.database.IUserDAO;
 import pl.camp.micro.book.store.model.User;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Component
-public class UserRepository {
+@Repository
+public class UserRepository implements IUserDAO {
 
     private final List<User> users = new ArrayList<>();
 
